@@ -1,0 +1,35 @@
+.header {
+  padding: 10px 30px;
+  background-color: #0096ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+
+  &__link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+.inner-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.box {
+  flex-grow: 1;
+  display: flex;
+}
+
+.left {
+  width: 20%;
+  background-color: #76ba99;
+}
+
+.right {
+  height: 94vh;
+  overflow-y: auto;
+  width: 60%;
+  background-color: #f5eddc;
+}
